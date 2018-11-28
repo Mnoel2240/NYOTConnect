@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7713E97221AF3D7500F3B4B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7713E97121AF3D7500F3B4B1 /* AppDelegate.swift */; };
+		7713E97421AF3D7500F3B4B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7713E97321AF3D7500F3B4B1 /* ViewController.swift */; };
+		7713E97721AF3D7500F3B4B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7713E97521AF3D7500F3B4B1 /* Main.storyboard */; };
+		7713E97921AF3D7C00F3B4B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7713E97821AF3D7C00F3B4B1 /* Assets.xcassets */; };
+		7713E97C21AF3D7C00F3B4B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7713E97A21AF3D7C00F3B4B1 /* LaunchScreen.storyboard */; };
+		7713E98721AF3D7C00F3B4B1 /* nyotconnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7713E98621AF3D7C00F3B4B1 /* nyotconnectTests.swift */; };
+		7713E99221AF3D7C00F3B4B1 /* nyotconnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7713E99121AF3D7C00F3B4B1 /* nyotconnectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7713E98321AF3D7C00F3B4B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7713E96621AF3D7500F3B4B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7713E96D21AF3D7500F3B4B1;
+			remoteInfo = nyotconnect;
+		};
+		7713E98E21AF3D7C00F3B4B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7713E96621AF3D7500F3B4B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7713E96D21AF3D7500F3B4B1;
+			remoteInfo = nyotconnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7713E96E21AF3D7500F3B4B1 /* nyotconnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nyotconnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7713E97121AF3D7500F3B4B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7713E97321AF3D7500F3B4B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7713E97621AF3D7500F3B4B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7713E97821AF3D7C00F3B4B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7713E97B21AF3D7C00F3B4B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7713E97D21AF3D7C00F3B4B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7713E98221AF3D7C00F3B4B1 /* nyotconnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nyotconnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7713E98621AF3D7C00F3B4B1 /* nyotconnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nyotconnectTests.swift; sourceTree = "<group>"; };
+		7713E98821AF3D7C00F3B4B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7713E98D21AF3D7C00F3B4B1 /* nyotconnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nyotconnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7713E99121AF3D7C00F3B4B1 /* nyotconnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nyotconnectUITests.swift; sourceTree = "<group>"; };
+		7713E99321AF3D7C00F3B4B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7713E96B21AF3D7500F3B4B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7713E97F21AF3D7C00F3B4B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7713E98A21AF3D7C00F3B4B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7713E96521AF3D7500F3B4B1 = {
+			isa = PBXGroup;
+			children = (
+				7713E97021AF3D7500F3B4B1 /* nyotconnect */,
+				7713E98521AF3D7C00F3B4B1 /* nyotconnectTests */,
+				7713E99021AF3D7C00F3B4B1 /* nyotconnectUITests */,
+				7713E96F21AF3D7500F3B4B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7713E96F21AF3D7500F3B4B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7713E96E21AF3D7500F3B4B1 /* nyotconnect.app */,
+				7713E98221AF3D7C00F3B4B1 /* nyotconnectTests.xctest */,
+				7713E98D21AF3D7C00F3B4B1 /* nyotconnectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7713E97021AF3D7500F3B4B1 /* nyotconnect */ = {
+			isa = PBXGroup;
+			children = (
+				7713E97121AF3D7500F3B4B1 /* AppDelegate.swift */,
+				7713E97321AF3D7500F3B4B1 /* ViewController.swift */,
+				7713E97521AF3D7500F3B4B1 /* Main.storyboard */,
+				7713E97821AF3D7C00F3B4B1 /* Assets.xcassets */,
+				7713E97A21AF3D7C00F3B4B1 /* LaunchScreen.storyboard */,
+				7713E97D21AF3D7C00F3B4B1 /* Info.plist */,
+			);
+			path = nyotconnect;
+			sourceTree = "<group>";
+		};
+		7713E98521AF3D7C00F3B4B1 /* nyotconnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				7713E98621AF3D7C00F3B4B1 /* nyotconnectTests.swift */,
+				7713E98821AF3D7C00F3B4B1 /* Info.plist */,
+			);
+			path = nyotconnectTests;
+			sourceTree = "<group>";
+		};
+		7713E99021AF3D7C00F3B4B1 /* nyotconnectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7713E99121AF3D7C00F3B4B1 /* nyotconnectUITests.swift */,
+				7713E99321AF3D7C00F3B4B1 /* Info.plist */,
+			);
+			path = nyotconnectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7713E96D21AF3D7500F3B4B1 /* nyotconnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7713E99621AF3D7C00F3B4B1 /* Build configuration list for PBXNativeTarget "nyotconnect" */;
+			buildPhases = (
+				7713E96A21AF3D7500F3B4B1 /* Sources */,
+				7713E96B21AF3D7500F3B4B1 /* Frameworks */,
+				7713E96C21AF3D7500F3B4B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nyotconnect;
+			productName = nyotconnect;
+			productReference = 7713E96E21AF3D7500F3B4B1 /* nyotconnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7713E98121AF3D7C00F3B4B1 /* nyotconnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7713E99921AF3D7C00F3B4B1 /* Build configuration list for PBXNativeTarget "nyotconnectTests" */;
+			buildPhases = (
+				7713E97E21AF3D7C00F3B4B1 /* Sources */,
+				7713E97F21AF3D7C00F3B4B1 /* Frameworks */,
+				7713E98021AF3D7C00F3B4B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7713E98421AF3D7C00F3B4B1 /* PBXTargetDependency */,
+			);
+			name = nyotconnectTests;
+			productName = nyotconnectTests;
+			productReference = 7713E98221AF3D7C00F3B4B1 /* nyotconnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7713E98C21AF3D7C00F3B4B1 /* nyotconnectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7713E99C21AF3D7C00F3B4B1 /* Build configuration list for PBXNativeTarget "nyotconnectUITests" */;
+			buildPhases = (
+				7713E98921AF3D7C00F3B4B1 /* Sources */,
+				7713E98A21AF3D7C00F3B4B1 /* Frameworks */,
+				7713E98B21AF3D7C00F3B4B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7713E98F21AF3D7C00F3B4B1 /* PBXTargetDependency */,
+			);
+			name = nyotconnectUITests;
+			productName = nyotconnectUITests;
+			productReference = 7713E98D21AF3D7C00F3B4B1 /* nyotconnectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7713E96621AF3D7500F3B4B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = nyotconnectteam;
+				TargetAttributes = {
+					7713E96D21AF3D7500F3B4B1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					7713E98121AF3D7C00F3B4B1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7713E96D21AF3D7500F3B4B1;
+					};
+					7713E98C21AF3D7C00F3B4B1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7713E96D21AF3D7500F3B4B1;
+					};
+				};
+			};
+			buildConfigurationList = 7713E96921AF3D7500F3B4B1 /* Build configuration list for PBXProject "nyotconnect" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7713E96521AF3D7500F3B4B1;
+			productRefGroup = 7713E96F21AF3D7500F3B4B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7713E96D21AF3D7500F3B4B1 /* nyotconnect */,
+				7713E98121AF3D7C00F3B4B1 /* nyotconnectTests */,
+				7713E98C21AF3D7C00F3B4B1 /* nyotconnectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7713E96C21AF3D7500F3B4B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7713E97C21AF3D7C00F3B4B1 /* LaunchScreen.storyboard in Resources */,
+				7713E97921AF3D7C00F3B4B1 /* Assets.xcassets in Resources */,
+				7713E97721AF3D7500F3B4B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7713E98021AF3D7C00F3B4B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7713E98B21AF3D7C00F3B4B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7713E96A21AF3D7500F3B4B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7713E97421AF3D7500F3B4B1 /* ViewController.swift in Sources */,
+				7713E97221AF3D7500F3B4B1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7713E97E21AF3D7C00F3B4B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7713E98721AF3D7C00F3B4B1 /* nyotconnectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7713E98921AF3D7C00F3B4B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7713E99221AF3D7C00F3B4B1 /* nyotconnectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7713E98421AF3D7C00F3B4B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7713E96D21AF3D7500F3B4B1 /* nyotconnect */;
+			targetProxy = 7713E98321AF3D7C00F3B4B1 /* PBXContainerItemProxy */;
+		};
+		7713E98F21AF3D7C00F3B4B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7713E96D21AF3D7500F3B4B1 /* nyotconnect */;
+			targetProxy = 7713E98E21AF3D7C00F3B4B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7713E97521AF3D7500F3B4B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7713E97621AF3D7500F3B4B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7713E97A21AF3D7C00F3B4B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7713E97B21AF3D7C00F3B4B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7713E99421AF3D7C00F3B4B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7713E99521AF3D7C00F3B4B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7713E99721AF3D7C00F3B4B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = nyotconnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = problemsolving.nyotconnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7713E99821AF3D7C00F3B4B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = nyotconnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = problemsolving.nyotconnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7713E99A21AF3D7C00F3B4B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = nyotconnectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = problemsolving.nyotconnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nyotconnect.app/nyotconnect";
+			};
+			name = Debug;
+		};
+		7713E99B21AF3D7C00F3B4B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = nyotconnectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = problemsolving.nyotconnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nyotconnect.app/nyotconnect";
+			};
+			name = Release;
+		};
+		7713E99D21AF3D7C00F3B4B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = nyotconnectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = problemsolving.nyotconnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nyotconnect;
+			};
+			name = Debug;
+		};
+		7713E99E21AF3D7C00F3B4B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = nyotconnectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = problemsolving.nyotconnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nyotconnect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7713E96921AF3D7500F3B4B1 /* Build configuration list for PBXProject "nyotconnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7713E99421AF3D7C00F3B4B1 /* Debug */,
+				7713E99521AF3D7C00F3B4B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7713E99621AF3D7C00F3B4B1 /* Build configuration list for PBXNativeTarget "nyotconnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7713E99721AF3D7C00F3B4B1 /* Debug */,
+				7713E99821AF3D7C00F3B4B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7713E99921AF3D7C00F3B4B1 /* Build configuration list for PBXNativeTarget "nyotconnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7713E99A21AF3D7C00F3B4B1 /* Debug */,
+				7713E99B21AF3D7C00F3B4B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7713E99C21AF3D7C00F3B4B1 /* Build configuration list for PBXNativeTarget "nyotconnectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7713E99D21AF3D7C00F3B4B1 /* Debug */,
+				7713E99E21AF3D7C00F3B4B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7713E96621AF3D7500F3B4B1 /* Project object */;
+}
